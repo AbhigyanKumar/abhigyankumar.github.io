@@ -73,3 +73,7 @@ img[alt$="logo"] {
 .intro {
 	flex-basis: 60%;
 }
+
+::selection {
+	background-color: #00a8ff;
+}
