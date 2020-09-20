@@ -5,7 +5,9 @@ const autoType = new Typed(".auto-type", {
 		"an optimist", 
 		"an internet guy", 
 		"a learner", 
-		"a friend"
+		"a friend",
+		"a student",
+		"a inquisitive"
 	],
 	typeSpeed: 100,
 	backDelay: 1000,
