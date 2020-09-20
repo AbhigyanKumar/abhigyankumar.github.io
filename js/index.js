@@ -16,4 +16,6 @@ const autoType = new Typed(".auto-type", {
 	showCursor: true,
 	fadeOut: false,
 	loop: true
-})
+});
+
+console.warn("%cPlease do not go type anything here.", "font-size: 50px; color: red;");
