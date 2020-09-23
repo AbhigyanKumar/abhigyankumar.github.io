@@ -4,6 +4,24 @@
 	font-family: 'Roboto Mono', monospace;
 }
 
+/* * Animations start */
+@-webkit-keyframes Flow {
+    0%{background-position:0% 25%}
+    50%{background-position:100% 76%}
+    100%{background-position:0% 25%}
+}
+@-moz-keyframes Flow {
+    0%{background-position:0% 25%}
+    50%{background-position:100% 76%}
+    100%{background-position:0% 25%}
+}
+@keyframes Flow {
+    0%{background-position:0% 25%}
+    50%{background-position:100% 76%}
+    100%{background-position:0% 25%}
+}
+/* * Animations end */
+
 @font-face {
 	font-family: 'Roboto Mono';
 	font-style: normal;
@@ -63,21 +81,11 @@ img[alt$="logo"] {
 
 #auto-wrapper {
 	text-align:center;
+	cursor: default;
     border-bottom: 2px solid transparent;
     border-image: linear-gradient(90deg, #00C9FF 0%, #92FE9D 100%);
     border-image-slice: 1;
     width:100%;
-}
-
-.auto-type:hover::after {
-	content: "";
-	position: relative;
-	bottom: 2px;
-	left: 0;
-	height: 1px;
-	width: 100%;
-	background: #ffffff;
-	background: linear-gradient(left, transparent 0%,#444 50%,transparent 100%);
 }
 
 .social {
@@ -106,3 +114,16 @@ img[alt$="logo"] {
 	font-weight: bold;
 	text-decoration: underline;
 }
+
+#bar {
+	width: 100%;
+	height: 10px;
+	background: linear-gradient(90deg, #00c9ff, #92fe9d);
+    background-size: 400% 400%;
+
+    -webkit-animation: Flow 19s ease infinite;
+    -moz-animation: Flow 19s ease infinite;
+    animation: Flow 19s ease infinite;
+}
+
+
