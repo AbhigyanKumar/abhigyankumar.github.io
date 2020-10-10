@@ -1,21 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
-@font-face {
-	font-family: 'JetBrains Mono';
-	font-style: normal;
-	src: url(https://github.com/JetBrains/JetBrainsMono/blob/master/fonts/web/JetBrainsMono-Regular.woff2?raw=true) format('woff2');
-	src: url(https://github.com/JetBrains/JetBrainsMono/blob/master/fonts/web/JetBrainsMono-Regular.woff?raw=true) format('woff');
-	unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-}
-
-@font-face {
-	font-family: 'JetBrains Mono';
-	font-style: bold;
-	src: url(https://github.com/JetBrains/JetBrainsMono/blob/master/fonts/web/JetBrainsMono-Bold.woff2?raw=true) format('woff2');
-	src: url(https://github.com/JetBrains/JetBrainsMono/blob/master/fonts/web/JetBrainsMono-Bold.woff?raw=true) format('woff');
-	unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-}
-
 :root {
 	--gradient: linear-gradient(90deg, #00C9FF 0%, #92FE9D 100%);
 }
