@@ -1,13 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
-:root {
-	--gradient: linear-gradient(90deg, #00C9FF 0%, #92FE9D 100%);
-}
-
 * {
 	margin: 0;
 	padding: 0;
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Roboto', "Helvetica", "Arial", sans-serif;
 }
 
 .back-ground {
@@ -24,22 +20,54 @@
 	text-align: center;
 }
 
+.main a {
+	color: #ffffff;
+	text-emphasis: none;
+	text-decoration: underline;
+}
+
 /* * Animations start */
 /* Gradient flow */
 @-webkit-keyframes Flow {
-    0%{background-position:0% 25%}
-    50%{background-position:100% 76%}
-    100%{background-position:0% 25%}
+	0% {
+		background-position: 0% 25%
+	}
+
+	50% {
+		background-position: 100% 76%
+	}
+
+	100% {
+		background-position: 0% 25%
+	}
 }
+
 @-moz-keyframes Flow {
-    0%{background-position:0% 25%}
-    50%{background-position:100% 76%}
-    100%{background-position:0% 25%}
+	0% {
+		background-position: 0% 25%
+	}
+
+	50% {
+		background-position: 100% 76%
+	}
+
+	100% {
+		background-position: 0% 25%
+	}
 }
+
 @keyframes Flow {
-    0%{background-position:0% 25%}
-    50%{background-position:100% 76%}
-    100%{background-position:0% 25%}
+	0% {
+		background-position: 0% 25%
+	}
+
+	50% {
+		background-position: 100% 76%
+	}
+
+	100% {
+		background-position: 0% 25%
+	}
 }
 
 ::selection {
@@ -78,10 +106,11 @@
 }
 
 .social div a {
+	font-size: 25px;
+	color: #ffffff;
 	text-emphasis: none;
 	text-decoration: none;
-	color: #ffffff;
-	font-size: 25px;
+	font-family: monospace;
 }
 
 .social div a:hover {
@@ -92,9 +121,9 @@
 #bar {
 	width: 100%;
 	height: 10px;
+	background-size: 400% 400%;
+	animation: Flow 19s ease infinite;
+	-moz-animation: Flow 19s ease infinite;
+	-webkit-animation: Flow 19s ease infinite;
 	background: linear-gradient(90deg, #00c9ff, #92fe9d);
-    background-size: 400% 400%;
-    -webkit-animation: Flow 19s ease infinite;
-    -moz-animation: Flow 19s ease infinite;
-    animation: Flow 19s ease infinite;
 }
