@@ -71,8 +71,7 @@
 }
 
 ::selection {
-	color: black;
-	background-color: #ffffff;
+	background-color: #accdf4;
 }
 
 ::-moz-selection {
